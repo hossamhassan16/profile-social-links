@@ -1,0 +1,80 @@
+/* start global rules  */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #111;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* end global rules */
+/* start main container */
+.main-container {
+    text-align: center;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: 0 8px 16px rgb(0, 0, 0, 0.3);
+}
+
+.main-container .profile-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container h2 {
+    color: white;
+}
+
+.main-container .location {
+    color: yellow;
+    margin-top: -10px;
+}
+
+.main-container .title {
+    color: white;
+    margin-top: 25px;
+}
+
+.main-container .social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container .social-links button {
+    background-color: #444;
+    color: #fff;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+.main-container .social-links button:hover {
+    background-color: #555;
+}
+
+/* end main container */
